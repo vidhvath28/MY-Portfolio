@@ -957,3 +957,98 @@ section:nth-child(odd) .animate.scroll,
     width: 0;
   }
 }
+.about-section {
+  background-color: #e7f1ff; /* Light background color */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  margin: 20px 0; /* Margin for spacing */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.about-section h2 {
+  font-size: 28px; /* Larger heading */
+  text-align: center; /* Centered text */
+  color: #0077cc; /* Consistent color scheme */
+  margin-bottom: 15px; /* Space below the heading */
+}
+
+.about-section ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+.about-section li {
+  font-size: 18px; /* Slightly larger font size */
+  color: #333; /* Darker text color */
+  padding: 10px; /* Padding for spacing */
+  display: flex; /* Flexbox for icon and text alignment */
+  align-items: center; /* Center align items vertically */
+  transition: background-color 0.3s; /* Transition effect for hover */
+}
+
+.about-section li:hover {
+  background-color: #cfe9ff; /* Change background on hover */
+  border-radius: 4px; /* Rounded corners on hover */
+}
+
+.about-section li strong {
+  margin-left: 10px; /* Space between icon and text */
+}
+
+.about-section {
+  background: linear-gradient(135deg, #00d4ff, #0080ff); /* Gradient background */
+  padding: 30px;
+  border-radius: 12px; /* Rounded corners */
+  margin: 20px 0; /* Margin for spacing */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
+  color: #fff; /* White text for contrast */
+}
+
+.about-section h2 {
+  font-size: 32px; /* Larger heading */
+  text-align: center; /* Centered text */
+  font-weight: 700; /* Bold heading */
+  margin-bottom: 20px; /* Space below the heading */
+  text-transform: uppercase; /* Uppercase text for emphasis */
+}
+
+.about-section ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+.about-section li {
+  font-size: 20px; /* Slightly larger font size */
+  padding: 15px; /* Padding for spacing */
+  display: flex; /* Flexbox for icon and text alignment */
+  align-items: center; /* Center align items vertically */
+  transition: background-color 0.3s, transform 0.3s; /* Transition effects */
+  border: 2px solid transparent; /* Border for hover effect */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.about-section li:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background on hover */
+  border-color: rgba(255, 255, 255, 0.5); /* Light border on hover */
+  transform: scale(1.02); /* Slight scale effect on hover */
+}
+
+.about-section li strong {
+  margin-left: 10px; /* Space between icon and text */
+  font-weight: 600; /* Semi-bold text */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .about-section {
+      padding: 20px; /* Reduced padding on smaller screens */
+  }
+
+  .about-section h2 {
+      font-size: 28px; /* Adjusted heading size */
+  }
+
+  .about-section li {
+      font-size: 18px; /* Adjusted list item size */
+  }
+}
